@@ -1,0 +1,97 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-position: center;
+    font-family: 'Genos', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 300;
+    height: 100vh;
+}
+
+.container {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.tableau-joueur {
+    width: 50%;
+    float: left;
+    height: 600px;
+    padding: 100px;
+}
+
+.joueurs {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.scoreJ {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+
+.tableau-score-t {
+    color:black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.temporaire {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #222;
+}
+
+.score-temporaire {
+    font-size: 30px;
+}
+
+button {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+
+.btn-new { top: 45px;}
+.btn-play { top: 300px;}
+.btn-hold { top: 350px;}
+
+.imageD {
+    position: absolute;
+    left: 50%;
+    top: 178px;
+    transform: translateX(-50%);
+    height: 100px;
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Lato:ital,wght@1,900&family=Zen+Kurenaido&display=swap');
+        </style>
+            
+        <title>Eval JS Jeu de Dé</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="tableau-joueur">
+                <div class="joueurs" id="nomJ-0">Joueur 1</div>
+                <div class="scoreJ" id="score-0"></div>
+                <div class="tableau-score-t">
+                    <div class="temporaire">temporaire</div>
+                    <div class="score-temporaire" id="temporaire-0"></div>
+                </div>
+            </div>
+            
+            <button class="btn-new"><i></i>Nouvelle Partie</button>
+            <button class="btn-play"><i></i>Lancer</button>
+            <button class="btn-hold"><i></i>Sauvegarder</button>
+
+
+            <div class="tableau-joueur">
+                <div class="joueurs" id="nomJ-1">Joueur 2</div>
+                <div class="scoreJ" id="score-1"></div>
+                <div class="tableau-score-t">
+                    <div class="temporaire">temporaire</div>
+                    <div class="score-temporaire" id="temporaire-1"></div>
+                </div>
+            </div>
+            
+            
+            
+            <img src="dice-5.png" alt="Dice" class="imageD">
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
