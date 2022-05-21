@@ -8,6 +8,8 @@
 }
 
 body {
+    background-image: url(NY.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     font-family: 'Genos', sans-serif;
     font-family: 'Lato', sans-serif;
@@ -37,18 +39,20 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-weight: 100;
+    color: white;
 }
 
 .scoreJ {
     text-align: center;
     font-size: 80px;
+    color: white;
 }
 
 
 
 
 .tableau-score-t {
-    color:black;
+    color:white;
     margin: 0 auto;
     text-align: center;
 }
@@ -57,7 +61,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 12px;
-    color: #222;
+    color: white;
 }
 
 .score-temporaire {
@@ -69,7 +73,7 @@ button {
     width: 200px;
     left: 50%;
     transform: translateX(-50%);
-    color: #555;
+    color: white;
     background: none;
     border: none;
     font-family: Lato;
@@ -94,4 +98,26 @@ button {
     transform: translateX(-50%);
     height: 100px;
 
+}
+
+
+.para3{
+    border-top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    border: cyan 3px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
