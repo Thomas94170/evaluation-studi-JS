@@ -10,7 +10,7 @@
 body {
     background-image: url(NY.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+/* background-position:center ; */
     font-family: 'Genos', sans-serif;
     font-family: 'Lato', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
@@ -111,13 +111,13 @@ button {
 
 footer{
     text-align: center;
-    color: white;
+    ;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 100px;
 }
 
 a{
-    color: white;
+    color: red;
     text-decoration: none;
 }
